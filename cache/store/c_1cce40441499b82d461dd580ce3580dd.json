@@ -1,0 +1,101 @@
+{
+    "name": "App\\CvTaskExecutionUser",
+    "line": 8,
+    "short_desc": "",
+    "long_desc": "",
+    "hint": null,
+    "tags": [],
+    "namespace": "App",
+    "file": "app\/\\CvTaskExecutionUser.php",
+    "relative_file": null,
+    "hash": "1b6290dd8b7571b9255e53d0ca6f5713193d8cd6",
+    "parent": "Illuminate\\Database\\Eloquent\\Model",
+    "modifiers": 0,
+    "is_trait": false,
+    "is_interface": false,
+    "aliases": {
+        "Model": "Illuminate\\Database\\Eloquent\\Model",
+        "CvTaskExecution": "App\\CvTaskExecution"
+    },
+    "errors": [],
+    "interfaces": [],
+    "traits": [],
+    "properties": {
+        "table": {
+            "name": "table",
+            "line": 10,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": 2,
+            "default": {
+                "nodeType": "Scalar_String",
+                "value": "cv_task_execution_by_user",
+                "attributes": {
+                    "startLine": 10,
+                    "endLine": 10,
+                    "kind": 2
+                }
+            },
+            "errors": []
+        },
+        "timestamps": {
+            "name": "timestamps",
+            "line": 11,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": 1,
+            "default": {
+                "nodeType": "Expr_ConstFetch",
+                "name": {
+                    "nodeType": "Name",
+                    "parts": [
+                        "false"
+                    ],
+                    "attributes": {
+                        "startLine": 11,
+                        "endLine": 11,
+                        "namespacedName": {
+                            "nodeType": "Name_FullyQualified",
+                            "parts": [
+                                "App",
+                                "false"
+                            ],
+                            "attributes": {
+                                "startLine": 11,
+                                "endLine": 11
+                            }
+                        }
+                    }
+                },
+                "attributes": {
+                    "startLine": 11,
+                    "endLine": 11
+                }
+            },
+            "errors": []
+        }
+    },
+    "methods": {
+        "taskExecution": {
+            "name": "taskExecution",
+            "line": 13,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        }
+    },
+    "constants": []
+}

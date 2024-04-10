@@ -1,0 +1,42 @@
+{
+    "name": "App\\Http\\Controllers\\General\\GeneralProjectController",
+    "line": 9,
+    "short_desc": "",
+    "long_desc": "",
+    "hint": null,
+    "tags": [],
+    "namespace": "App\\Http\\Controllers\\General",
+    "file": "app\/\\Http\\Controllers\\General\\GeneralProjectController.php",
+    "relative_file": null,
+    "hash": "df3cc9d2d7459cd82a2a6f00f29cbc1f11000edc",
+    "parent": "App\\Http\\Controllers\\Controller",
+    "modifiers": 0,
+    "is_trait": false,
+    "is_interface": false,
+    "aliases": {
+        "Request": "Illuminate\\Http\\Request",
+        "Controller": "App\\Http\\Controllers\\Controller",
+        "CvProject": "App\\CvProject"
+    },
+    "errors": [],
+    "interfaces": [],
+    "traits": [],
+    "properties": [],
+    "methods": {
+        "consultProjects": {
+            "name": "consultProjects",
+            "line": 13,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        }
+    },
+    "constants": []
+}

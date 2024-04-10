@@ -1,0 +1,97 @@
+{
+    "name": "App\\Http\\Requests\\PropertyRequest",
+    "line": 8,
+    "short_desc": "",
+    "long_desc": "",
+    "hint": null,
+    "tags": [],
+    "namespace": "App\\Http\\Requests",
+    "file": "app\/\\Http\\Requests\\PropertyRequest.php",
+    "relative_file": null,
+    "hash": "b113b9b01b623c95b927e4313fce3805c8db94b8",
+    "parent": "Illuminate\\Foundation\\Http\\FormRequest",
+    "modifiers": 0,
+    "is_trait": false,
+    "is_interface": false,
+    "aliases": {
+        "FormRequest": "Illuminate\\Foundation\\Http\\FormRequest",
+        "Validator": "Illuminate\\Support\\Facades\\Validator"
+    },
+    "errors": [],
+    "interfaces": [],
+    "traits": [],
+    "properties": [],
+    "methods": {
+        "authorize": {
+            "name": "authorize",
+            "line": 15,
+            "short_desc": "Determine if the user is authorized to make this request.",
+            "long_desc": "",
+            "hint": [
+                [
+                    "bool",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "rules": {
+            "name": "rules",
+            "line": 24,
+            "short_desc": "Get the validation rules that apply to the request.",
+            "long_desc": "",
+            "hint": [
+                [
+                    "array",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "response": {
+            "name": "response",
+            "line": 47,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "errors": {
+                    "name": "errors",
+                    "line": 47,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "array",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "array",
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false
+                }
+            }
+        }
+    },
+    "constants": []
+}

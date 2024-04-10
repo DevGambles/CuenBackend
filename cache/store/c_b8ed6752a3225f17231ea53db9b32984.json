@@ -1,0 +1,116 @@
+{
+    "name": "App\\CvTaskUser",
+    "line": 9,
+    "short_desc": "",
+    "long_desc": "",
+    "hint": null,
+    "tags": [],
+    "namespace": "App",
+    "file": "app\/\\CvTaskUser.php",
+    "relative_file": null,
+    "hash": "fb9fb036fe15235de3063798b4ddd5798cd007d8",
+    "parent": "Illuminate\\Database\\Eloquent\\Model",
+    "modifiers": 0,
+    "is_trait": false,
+    "is_interface": false,
+    "aliases": {
+        "Model": "Illuminate\\Database\\Eloquent\\Model",
+        "User": "App\\User",
+        "CvTask": "App\\CvTask"
+    },
+    "errors": [],
+    "interfaces": [],
+    "traits": [],
+    "properties": {
+        "table": {
+            "name": "table",
+            "line": 11,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": 2,
+            "default": {
+                "nodeType": "Scalar_String",
+                "value": "cv_task_by_user",
+                "attributes": {
+                    "startLine": 11,
+                    "endLine": 11,
+                    "kind": 2
+                }
+            },
+            "errors": []
+        },
+        "timestamps": {
+            "name": "timestamps",
+            "line": 12,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": 1,
+            "default": {
+                "nodeType": "Expr_ConstFetch",
+                "name": {
+                    "nodeType": "Name",
+                    "parts": [
+                        "false"
+                    ],
+                    "attributes": {
+                        "startLine": 12,
+                        "endLine": 12,
+                        "namespacedName": {
+                            "nodeType": "Name_FullyQualified",
+                            "parts": [
+                                "App",
+                                "false"
+                            ],
+                            "attributes": {
+                                "startLine": 12,
+                                "endLine": 12
+                            }
+                        }
+                    }
+                },
+                "attributes": {
+                    "startLine": 12,
+                    "endLine": 12
+                }
+            },
+            "errors": []
+        }
+    },
+    "methods": {
+        "user": {
+            "name": "user",
+            "line": 16,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "tasks": {
+            "name": "tasks",
+            "line": 21,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        }
+    },
+    "constants": []
+}

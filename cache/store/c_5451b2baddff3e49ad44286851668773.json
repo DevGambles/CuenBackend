@@ -1,0 +1,44 @@
+{
+    "name": "App\\Http\\Controllers\\General\\GeneralAuthRolePermissionController",
+    "line": 11,
+    "short_desc": "",
+    "long_desc": "",
+    "hint": null,
+    "tags": [],
+    "namespace": "App\\Http\\Controllers\\General",
+    "file": "app\/\\Http\\Controllers\\General\\GeneralAuthRolePermissionController.php",
+    "relative_file": null,
+    "hash": "52d2e30fa8806b0b21c518a01f82ed690a630d32",
+    "parent": "App\\Http\\Controllers\\Controller",
+    "modifiers": 0,
+    "is_trait": false,
+    "is_interface": false,
+    "aliases": {
+        "Request": "Illuminate\\Http\\Request",
+        "Controller": "App\\Http\\Controllers\\Controller",
+        "CvRoleEntitiesPermission": "App\\CvRoleEntitiesPermission",
+        "CvEntitiesPermission": "App\\CvEntitiesPermission",
+        "CvEntities": "App\\CvEntities"
+    },
+    "errors": [],
+    "interfaces": [],
+    "traits": [],
+    "properties": [],
+    "methods": {
+        "authRoleEntityPermission": {
+            "name": "authRoleEntityPermission",
+            "line": 15,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        }
+    },
+    "constants": []
+}

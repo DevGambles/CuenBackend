@@ -1,0 +1,130 @@
+{
+    "name": "App\\CvPoolProcess",
+    "line": 9,
+    "short_desc": "",
+    "long_desc": "",
+    "hint": null,
+    "tags": [],
+    "namespace": "App",
+    "file": "app\/\\CvPoolProcess.php",
+    "relative_file": null,
+    "hash": "e6f6cef8493173f2fe7fa70cc2333ee6e7380d11",
+    "parent": "Illuminate\\Database\\Eloquent\\Model",
+    "modifiers": 0,
+    "is_trait": false,
+    "is_interface": false,
+    "aliases": {
+        "Model": "Illuminate\\Database\\Eloquent\\Model",
+        "CvBudget": "App\\CvBudget",
+        "CvPoolActionByUser": "App\\CvPoolActionByUser"
+    },
+    "errors": [],
+    "interfaces": [],
+    "traits": [],
+    "properties": {
+        "table": {
+            "name": "table",
+            "line": 11,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": 2,
+            "default": {
+                "nodeType": "Scalar_String",
+                "value": "cv_pool_by_process",
+                "attributes": {
+                    "startLine": 11,
+                    "endLine": 11,
+                    "kind": 2
+                }
+            },
+            "errors": []
+        },
+        "timestamps": {
+            "name": "timestamps",
+            "line": 12,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": 1,
+            "default": {
+                "nodeType": "Expr_ConstFetch",
+                "name": {
+                    "nodeType": "Name",
+                    "parts": [
+                        "false"
+                    ],
+                    "attributes": {
+                        "startLine": 12,
+                        "endLine": 12,
+                        "namespacedName": {
+                            "nodeType": "Name_FullyQualified",
+                            "parts": [
+                                "App",
+                                "false"
+                            ],
+                            "attributes": {
+                                "startLine": 12,
+                                "endLine": 12
+                            }
+                        }
+                    }
+                },
+                "attributes": {
+                    "startLine": 12,
+                    "endLine": 12
+                }
+            },
+            "errors": []
+        }
+    },
+    "methods": {
+        "poolByProcessBudget": {
+            "name": "poolByProcessBudget",
+            "line": 14,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "poolActionsByUserContractor": {
+            "name": "poolActionsByUserContractor",
+            "line": 19,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "Budget": {
+            "name": "Budget",
+            "line": 24,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        }
+    },
+    "constants": []
+}

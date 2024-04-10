@@ -1,0 +1,47 @@
+{
+    "name": "App\\Http\\Controllers\\General\\GeneralCoordinatorController",
+    "line": 14,
+    "short_desc": "",
+    "long_desc": "",
+    "hint": null,
+    "tags": [],
+    "namespace": "App\\Http\\Controllers\\General",
+    "file": "app\/\\Http\\Controllers\\General\\GeneralCoordinatorController.php",
+    "relative_file": null,
+    "hash": "bd91a71a1d0173a5c22be9351d7d5e0addc1c56c",
+    "parent": "App\\Http\\Controllers\\Controller",
+    "modifiers": 0,
+    "is_trait": false,
+    "is_interface": false,
+    "aliases": {
+        "Request": "Illuminate\\Http\\Request",
+        "Controller": "App\\Http\\Controllers\\Controller",
+        "CvAssociatedContribution": "App\\CvAssociatedContribution",
+        "CvActivityCoordination": "App\\CvActivityCoordination",
+        "Auth": "Illuminate\\Support\\Facades\\Auth",
+        "CvRole": "App\\CvRole",
+        "User": "App\\User",
+        "CvProcess": "App\\CvProcess"
+    },
+    "errors": [],
+    "interfaces": [],
+    "traits": [],
+    "properties": [],
+    "methods": {
+        "CoordinatingBudget": {
+            "name": "CoordinatingBudget",
+            "line": 16,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        }
+    },
+    "constants": []
+}

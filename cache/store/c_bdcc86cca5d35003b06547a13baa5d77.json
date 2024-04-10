@@ -1,0 +1,106 @@
+{
+    "name": "App\\Http\\Controllers\\Controller",
+    "line": 14,
+    "short_desc": "",
+    "long_desc": "",
+    "hint": null,
+    "tags": [],
+    "namespace": "App\\Http\\Controllers",
+    "file": "app\/\\Http\\Controllers\\Controller.php",
+    "relative_file": null,
+    "hash": "fd96a36d79dc0704722ae311a09f16110faa313d",
+    "parent": "Illuminate\\Routing\\Controller",
+    "modifiers": 0,
+    "is_trait": false,
+    "is_interface": false,
+    "aliases": {
+        "DispatchesJobs": "Illuminate\\Foundation\\Bus\\DispatchesJobs",
+        "BaseController": "Illuminate\\Routing\\Controller",
+        "ValidatesRequests": "Illuminate\\Foundation\\Validation\\ValidatesRequests",
+        "AuthorizesRequests": "Illuminate\\Foundation\\Auth\\Access\\AuthorizesRequests",
+        "Auth": "Auth",
+        "CvRoutesAutomatic": "App\\CvRoutesAutomatic",
+        "User": "App\\User",
+        "CvTaskUser": "App\\CvTaskUser"
+    },
+    "errors": [],
+    "interfaces": [],
+    "traits": {
+        "Illuminate\\Foundation\\Auth\\Access\\AuthorizesRequests": "Illuminate\\Foundation\\Auth\\Access\\AuthorizesRequests",
+        "Illuminate\\Foundation\\Bus\\DispatchesJobs": "Illuminate\\Foundation\\Bus\\DispatchesJobs",
+        "Illuminate\\Foundation\\Validation\\ValidatesRequests": "Illuminate\\Foundation\\Validation\\ValidatesRequests"
+    },
+    "properties": [],
+    "methods": {
+        "userLoggedInId": {
+            "name": "userLoggedInId",
+            "line": 23,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "userLoggedInRol": {
+            "name": "userLoggedInRol",
+            "line": 28,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "logout_session": {
+            "name": "logout_session",
+            "line": 34,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "routesAutomatics": {
+            "name": "routesAutomatics",
+            "line": 47,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "info": {
+                    "name": "info",
+                    "line": 47,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": null,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false
+                }
+            }
+        }
+    },
+    "constants": []
+}

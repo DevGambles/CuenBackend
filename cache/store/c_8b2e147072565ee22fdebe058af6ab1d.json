@@ -1,0 +1,42 @@
+{
+    "name": "App\\Http\\Controllers\\User\\LoginController",
+    "line": 9,
+    "short_desc": "",
+    "long_desc": "",
+    "hint": null,
+    "tags": [],
+    "namespace": "App\\Http\\Controllers\\User",
+    "file": "app\/\\Http\\Controllers\\User\\LoginController.php",
+    "relative_file": null,
+    "hash": "9d1657f7a87ba9023bfc125a668703c553d4f23f",
+    "parent": "App\\Http\\Controllers\\Controller",
+    "modifiers": 0,
+    "is_trait": false,
+    "is_interface": false,
+    "aliases": {
+        "Controller": "App\\Http\\Controllers\\Controller",
+        "Auth": "Auth",
+        "OauthAccessToken": "App\\OauthAccessToken"
+    },
+    "errors": [],
+    "interfaces": [],
+    "traits": [],
+    "properties": [],
+    "methods": {
+        "logout": {
+            "name": "logout",
+            "line": 13,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        }
+    },
+    "constants": []
+}
